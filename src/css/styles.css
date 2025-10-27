@@ -67,6 +67,31 @@ h3 {
   color: var(--first-color);
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 8px 0;
+  color: var(--accent-color);
+  font-size: 1rem;
+}
+
+section {
+  margin-block-end: 20px;
+}
+
+h2 {
+  margin-block-end: 10px;
+  font-size: 1.5rem;
+}
+
+p,
+li {
+  line-height: 1.6;
+}
+
 .creator-name {
   color: var(--second-color);
   font-weight: bold;
