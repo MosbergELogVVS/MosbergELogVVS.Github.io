@@ -9,11 +9,9 @@ const languageSelect = document.getElementById("language-select");
 languageSelect.addEventListener("change", function () {
   const selectedLanguage = languageSelect.value;
   if (selectedLanguage === "dansk") {
-    window.location.href =
-      "https://mosberg.github.io/MosbergELogVVS.Github.io/";
+    window.location.href = "https://MosbergELogVVS.Github.io/index-da.html";
   } else if (selectedLanguage === "engelsk") {
-    window.location.href =
-      "https://mosberg.github.io/MosbergELogVVS.Github.io/";
+    window.location.href = "https://MosbergELogVVS.Github.io/index-en.html";
   }
 });
 
@@ -43,3 +41,8 @@ links.forEach((link) => {
     });
   });
 });
+
+// Greeting
+const greeting = document.createElement("p");
+greeting.textContent = "Tak fordi du besøger Mosberg El & VVS!";
+document.querySelector("header").appendChild(greeting);
